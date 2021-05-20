@@ -10,13 +10,10 @@
   --slightly-transparent-white2: hsla(0, 0%, 100%, 0.6);
 }
 
-body {
-  margin-top: 100px;
-}
 .card {
   width: 1440px;
   height: 800px;
-  margin: auto;
+  margin: 100px auto 20px;
   background-color: var(--very-dark-blue);
   display: flex;
   justify-content: center;
@@ -87,17 +84,14 @@ span {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 10px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
 @media screen and (max-width: 375px) {
-  body {
-    margin-top: 0;
-  }
   .card {
+    margin-top: 0;
     width: 375px;
     height: 956px;
     flex-direction: column;
