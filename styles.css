@@ -94,6 +94,9 @@ span {
 }
 
 @media screen and (max-width: 375px) {
+  body {
+    margin-top: 0;
+  }
   .card {
     width: 375px;
     height: 956px;
